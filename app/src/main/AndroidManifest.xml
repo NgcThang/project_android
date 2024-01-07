@@ -13,8 +13,8 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name="tuan3.Tuan32"
-            android:exported="true" >
+            android:name="tuan3_2_Kotlin.T32kotlin"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,16 +22,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="tuan3.Tuan32"
+            android:exported="true" />
+        <activity
             android:name="tuan2_2_Kotlin.Tuan2_2_Listview"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name="tuan2_2_Kotlin.Tuan2_2_Kotlin_Second"
             android:exported="false" />
         <activity
             android:name="tuan2_2_Kotlin.Tuan2_2_Kotlin"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name="tuan2.tuan2_2"
             android:exported="true" />
